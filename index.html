@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Examples</title>
+</head>
+<body>
+
+<!-- Formularze -->
+<form action="" method="POST">
+  <label for="user-name">Imię</label>
+   <input id="user-name" type="text" name="name" placeholder="Imię" tabindex="3"><br>
+   <input type="email" name="email" disabled><br>
+   <input type="number" name="numer_telefonu" required value="2" tabindex="2"><br>
+   <input id="checkbox_1" type="checkbox" name="agreement">
+   <label for="checkbox_1">To jest mój checkbox</label><br>
+   <label><input type="radio" name="gender">Kobieta</label><br>
+   <label><input type="radio" name="gender">Mężczyzna</label><br>
+   <select name="cities">
+       <option value="Warszawa">Warszawa</option>
+       <option value="Kraków">Kraków</option>
+       <option value="Gdańsk">Gdańsk</option>
+   </select><br>
+   <textarea name="message" tabindex="1"></textarea><br>
+
+    <input type="submit" value="Wyślij formularz">
+</form>
+
+</body>
+</html>
